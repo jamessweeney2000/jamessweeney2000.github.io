@@ -1,0 +1,135 @@
+.banner {
+    background-image: radial-gradient(white, rgb(143, 208, 255));
+    color: black;
+    font-weight: 100;
+    margin-top: 0px;
+    padding: 2px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #373F51;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: rgb(0, 225, 255);
+}
+
+
+.return {
+    overflow: hidden;
+    background-color: #373F51;
+}
+
+.return a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.return a:hover {
+    background-color: rgb(0, 225, 255);
+}
+
+.contactcontainer {
+    background-image: radial-gradient(white, rgb(0, 149, 255));
+    margin: 1vw;
+    padding: 50px;
+    margin-bottom: 1vw;
+}
+
+form {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+form h3 {
+    color: #555;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+}
+
+form button {
+    padding: 15px;
+    background: #ff5361;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+
+.grid-container {
+    margin: 10vw;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1vw;
+    background-color: beige;
+    padding: 10px;
+    border: 2px solid black;
+    align-items: center;
+}
+
+.grid-container button {
+    padding: 30px;
+    background: #ff5361;
+    color: #fff;
+    font-size: 22px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 50vw;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+.gettingstartedpythoncontents{
+    margin: 10vw;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1vw;
+    background-color: beige;
+    padding: 10px;
+    border: 2px solid black;
+    align-items: center;
+}
