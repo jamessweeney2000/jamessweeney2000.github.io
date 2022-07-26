@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Computer Science</title>
+    <link rel="stylesheet" href="\style.css">
+    <link rel="icon" href="\images\Logo.jpg" />
+
+</head>
+
+<body style="background-color: 	#f0ffff;">
+
+    <div class="banner">
+        <div>
+            <a href="\index.html">
+                <img src="\images\Logo.jpg" alt="Logo" width="80px"
+                    height="80px" style="float:left; box-shadow: 6px 6px rgb(114, 114, 114);">
+            </a>
+
+        </div>
+        <center>
+            <div style="margin-top: 30px; text-shadow: 2px 2px lightgrey;">
+                <b>Computer Science Resources</b>
+            </div>
+        </center>
+    </div>
+    <div class="navbar">
+        <a href="\index.html">Home</a>
+        <a href="\python.html">Python</a>
+        <a href="\html.html">HTML</a>
+        <a href="\css.html">CSS</a>
+        <a href="\javascript.html">JavaScript</a>
+        <a href="\alts.html">ALT's</a>
+        <a href="\databases.html">Databases</a>
+        <a href="\pastpapers.html">Past Papers</a>
+        <a href="\teachers.html">Teachers</a>
+        <a href="\contact.html">Contact</a>
+    </div>
+
+    <div class="yellowcontentsbox">
+
+        <center>
+            <h2>Variables</h2>
+
+            <div style="margin-bottom: 15px; ">
+                On this page you will find questions 1 - 7 based on Python Variables. The questions get gradually more difficult.
+                Each questions has the expected output. 
+            </div>
+
+            <button class="accordion">Question 1</button>
+            <div class="panel">
+                <b><br>Question 1:</b>
+                <p>
+                    Given:<br> int = 2 <br> float = 2.1<br> str = 'numbers'<br> bool = True<br><br>
+                    Print the float.
+                </p>
+
+                <iframe src="https://trinket.io/embed/python/72ffca36a0" width="100%" height="356" frameborder="0"
+                    marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+                <b>Expected Output:</b>
+                <p>
+                    2.1
+                </p>
+
+
+
+            </div>
+
+            <button class="accordion">Question 2</button>
+            <div class="panel">
+                <b><br>Question 2:</b>
+                <p>
+                    What type of variables are:<br>
+                    x = 3<br> y = 7.84 <br>z = "nine"<br> k = False
+                </p>
+
+                <iframe src="https://trinket.io/embed/python/72ffca36a0" width="100%" height="356" frameborder="0"
+                    marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+                <b>Expected Output:</b>
+                <p>
+                    class 'int'<br>
+                    class 'float'<br>
+                    class 'str'<br>
+                    class 'bool'<br>
+                </p>
+
+
+
+            </div>
+
+            <button class="accordion">Question 3</button>
+            <div class="panel">
+                <b><br>Question 3:</b>
+                <p>
+                    Given:<br>x = 2<br>y = 7<br>z = 12<br>
+                    Print expected output using the given variables
+                </p>
+
+                <iframe src="https://trinket.io/embed/python/72ffca36a0" width="100%" height="356" frameborder="0"
+                    marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+                <b>Expected Output:</b>
+                <p>
+                    The variables x,y and z are: 2 7 12
+                </p>
+
+
+            </div>
+
+            <button class="accordion">Question 4</button>
+            <div class="panel">
+                <b><br>Question 4:</b>
+                <p>
+                    Find the area of a sphere with radius 6<br>
+                    A = 4πr^2
+                </p>
+
+                <iframe src="https://trinket.io/embed/python/72ffca36a0" width="100%" height="356" frameborder="0"
+                    marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+                <b>Expected Output:</b>
+                <p>
+                    452.16
+                </p>
+
+
+            </div>
+
+            <button class="accordion">Question 5</button>
+            <div class="panel">
+                <b><br>Question 5:</b>
+                <p>
+                    Find the volume of a sphere with radius 6<br>Round your answer to 2 decimal places<br>
+                    V = 4/3πr^3
+                </p>
+
+                <iframe src="https://trinket.io/embed/python/72ffca36a0" width="100%" height="356" frameborder="0"
+                    marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+                <b>Expected Output:</b>
+                <p>
+                    904.32
+                </p>
+
+
+            </div>
+
+            <button class="accordion">Question 6</button>
+            <div class="panel">
+                <b><br>Question 6:</b>
+                <p>
+                    Coming Soon!
+                </p>
+
+                <iframe src="https://trinket.io/embed/python/72ffca36a0" width="100%" height="356" frameborder="0"
+                    marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+                <b>Expected Output:</b>
+                <p>
+
+                </p>
+
+
+            </div>
+
+            <button class="accordion">Question 7</button>
+            <div class="panel">
+                <b><br>Question 7:</b>
+                <p>
+                    Coming Soon!
+                </p>
+
+                <iframe src="https://trinket.io/embed/python/72ffca36a0" width="100%" height="356" frameborder="0"
+                    marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+                <b>Expected Output:</b>
+                <p>
+
+                </p>
+
+
+            </div>
+
+            <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+
+                for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function () {
+                        this.classList.toggle("active");
+                        var panel = this.nextElementSibling;
+                        if (panel.style.maxHeight) {
+                            panel.style.maxHeight = null;
+                        } else {
+                            panel.style.maxHeight = panel.scrollHeight + "px";
+                        }
+                    });
+                }
+            </script>
+
+
+        </center>
+
+
+    </div>
+
+</body>
+<footer>
+    <p>
+        leavingcertcomputerscience.ie © 2022<br>
+        Creator: James Sweeney
+    </p>
+</footer>
+
+</html>
